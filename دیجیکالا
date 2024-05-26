@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دیجی‌کالا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <h1>دیجی‌کالا</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="جستجو...">
+                    <button>جستجو</button>
+                </div>
+                <div class="cart">
+                    <a href="#">سبد خرید</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">محصولات</a></li>
+                    <li><a href="#">دسته‌بندی‌ها</a></li>
+                    <li><a href="#">فروش ویژه</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="banner">
+                <img src="banner.jpg" alt="بنر تبلیغاتی">
+            </section>
+            <section class="products">
+                <h2>محصولات ویژه</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="product1.jpg" alt="محصول ۱">
+                        <h3>محصول ۱</h3>
+                        <p>توضیحات محصول ۱</p>
+                        <span class="price">۱۰۰,۰۰۰ تومان</span>
+                    </div>
+                    <div class="product">
+                        <img src="product2.jpg" alt="محصول ۲">
+                        <h3>محصول ۲</h3>
+                        <p>توضیحات محصول ۲</p>
+                        <span class="price">۲۰۰,۰۰۰ تومان</span>
+                    </div>
+                    <!-- محصولات بیشتر -->
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>کلیه حقوق محفوظ است © ۲۰۲۴</p>
+        </div>
+    </footer>
+</body>
+</html>
